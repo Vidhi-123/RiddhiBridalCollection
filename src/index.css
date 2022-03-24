@@ -4,13 +4,33 @@
   /* margin-left: 10px;
   margin-top: 5px;
   margin-right: 10px; */
-  overflow: hidden;
+  overflow-x:hidden;
+  overflow-y: auto;
 
+}
+
+.label{
+  font-family: 'Times New Roman',serif;
+  
+  font-size: 25px;
+  font-weight: bold;
+  background-image: linear-gradient(
+ to right,
+ #e0cac9 0,
+        #cb9b51 22%, 
+ #f6e27a 45%,
+ #f6f2c0 50%,
+ #f6e27a 55%,
+ #cb9b51 78%,
+ #e0cac9 100%
+ );
+  color:transparent;
+  -webkit-background-clip:text;
 }
 
 body {
   font-family: sans-serif;
-  background-color: white;
+  background-image: url('./images/bg3.jpg');
   
 }
 
